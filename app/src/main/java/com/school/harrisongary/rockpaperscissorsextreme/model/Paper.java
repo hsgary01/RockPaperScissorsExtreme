@@ -8,7 +8,7 @@ import com.school.harrisongary.rockpaperscissorsextreme.utils.TextUtils;
  */
 public class Paper implements Gesture{
     @Override
-    public int showGestureImage() { return R.drawable.paper; }
+    public int showGestureImage() { return R.drawable.paperbill; }
 
     @Override
     public String gestName() { return TextUtils.PAPER;}

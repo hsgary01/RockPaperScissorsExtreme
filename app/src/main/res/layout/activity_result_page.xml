@@ -6,6 +6,10 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:background="@drawable/pbg"
+
+
     tools:context="com.school.harrisongary.rockpaperscissorsextreme.ResultPage">
 
     <TextView
@@ -14,8 +18,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="You:"
-        android:textSize="30dip"
-        />
+        android:textSize="30dp"
+        android:textColor="#FFFFFF" />
 
     <TextView
 
@@ -23,9 +27,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Computer:"
-        android:textSize="30dip"
+        android:textSize="30dp"
         android:layout_alignParentRight="true"
-        />
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -40,7 +45,8 @@
         android:id="@+id/imageView6"
         android:src="@drawable/ic_launcher"
         android:layout_below="@+id/compPlays"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -49,7 +55,8 @@
         android:id="@+id/button"
         android:onClick= "titleScreen"
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:background="#F0F1F1" />
 
 
 
@@ -58,12 +65,13 @@
 
         android:id="@+id/textResult"
         android:text ="Result"
-        android:textSize="40dip"
+        android:textSize="40dp"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:textColor="#E6FFFF" />
 
 
 

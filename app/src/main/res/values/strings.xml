@@ -10,5 +10,15 @@
     <string name="title_activity_paper_chosen">PaperChosen</string>
     <string name="title_activity_scissors_chosen">ScissorsChosen</string>
     <string name="title_activity_result_page">ResultPage</string>
+    <string name="Rock_Paper">Rock, Paper</string>
+    <string name="Extreme">Extreme!!!</string>
+    <string name="Play">Play</string>
+    <string name="Play_Again">Play Again</string>
+    <string name="SelectRock">Select Rock</string>
+    <string name="SelectPaper">Select Paper</string>
+    <string name="SelectScissors">Select Scissors</string>
+    <string name="Rock">Rock</string>
+    <string name="Paper">Paper</string>
+    <string name="Scissors">Scissors</string>
 
 </resources>

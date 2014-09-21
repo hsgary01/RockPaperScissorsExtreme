@@ -6,7 +6,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:background="@drawable/pbg"
     tools:context="com.school.harrisongary.rockpaperscissorsextreme.RPSselect">
+
+
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -15,7 +19,8 @@
         android:src="@drawable/rock"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:onClick="rockscreen" />
+        android:background="#fff6f6f6"
+        android:contentDescription="@string/SelectRock"/>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -25,7 +30,8 @@
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/imageButtonR"
         android:layout_alignStart="@+id/imageButtonR"
-        android:onClick="paperscreen" />
+        android:background="#fff6f6f6"
+        android:contentDescription="@string/SelectPaper" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -35,15 +41,16 @@
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/imageButtonR"
         android:layout_alignStart="@+id/imageButtonR"
-        android:onClick="scissorsscreen" />
+        android:background="#fff6f6f6"
+        android:contentDescription="@string/SelectScissors"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Scissors"
+        android:text="@string/Scissors"
         android:id="@+id/textView2"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textColorHighlight="#ff000000"
         android:textColor="#ff00ad2e"
         android:layout_alignTop="@+id/imageButtonS"
@@ -53,9 +60,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Paper"
+        android:text="@string/Paper"
         android:id="@+id/textView3"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textColorHighlight="#ff000000"
         android:textColor="#ff0004ad"
         android:layout_alignTop="@+id/imageButtonP"
@@ -65,9 +72,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Rock"
+        android:text="@string/Rock"
         android:id="@+id/textView4"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textColorHighlight="#ff000000"
         android:textColor="#ffad000c"
         android:layout_alignParentTop="true"

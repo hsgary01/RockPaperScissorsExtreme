@@ -36,7 +36,7 @@ public class ResultPage extends Activity {
         if (clickedType == R.id.imageButtonR) { //Rock Chosen
 
             ImageView imageView2 = (ImageView) findViewById(R.id.imageView);
-            imageView2.setImageResource(R.drawable.rock);
+            imageView2.setImageResource(R.drawable.thing_dialogue_1);
 
 
 
@@ -72,7 +72,7 @@ public class ResultPage extends Activity {
         } else if (clickedType == R.id.imageButtonP) { //Paper Chosen
 
             ImageView imageView2 = (ImageView) findViewById(R.id.imageView);
-            imageView2.setImageResource(R.drawable.paper);
+            imageView2.setImageResource(R.drawable.paperbill);
 
             if (gestRoll.equals("ROCK")) {
 
@@ -96,7 +96,7 @@ public class ResultPage extends Activity {
         else if (clickedType == R.id.imageButtonS) {
 
             ImageView imageView2 = (ImageView) findViewById(R.id.imageView);
-            imageView2.setImageResource(R.drawable.scissors);
+            imageView2.setImageResource(R.drawable.wolverine_4);
 
 
             if (gestRoll.equals("ROCK")) {
