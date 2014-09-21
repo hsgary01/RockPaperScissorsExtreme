@@ -56,6 +56,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.school.harrisongary.rockpaperscissorsextreme.RPSselect" />
         </activity>
+        <activity
+            android:name=".ResultPage"
+            android:label="@string/title_activity_result_page" >
+        </activity>
     </application>
 
 </manifest>

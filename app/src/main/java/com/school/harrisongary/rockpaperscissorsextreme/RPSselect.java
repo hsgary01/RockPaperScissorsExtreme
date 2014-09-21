@@ -14,9 +14,10 @@ import android.widget.Toast;
 
 import com.school.harrisongary.rockpaperscissorsextreme.factory.GestureFactory;
 import com.school.harrisongary.rockpaperscissorsextreme.model.Gesture;
+import com.school.harrisongary.rockpaperscissorsextreme.utils.RockPaperScissorsUtil;
 
 
-public class RPSselect extends Activity {
+public class RPSselect extends Activity implements View.OnClickListener{
 
 
 
@@ -24,6 +25,17 @@ public class RPSselect extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rpsselect);
+
+        ImageView imageViewRock = (ImageView)findViewById(R.id.imageButtonR);
+        imageViewRock.setOnClickListener(this);
+
+        ImageView imageViewPaper = (ImageView)findViewById(R.id.imageButtonP);
+        imageViewPaper.setOnClickListener(this);
+
+        ImageView imageViewScissors = (ImageView)findViewById(R.id.imageButtonS);
+        imageViewScissors.setOnClickListener(this);
+
+
 
 
     }
@@ -48,24 +60,12 @@ public class RPSselect extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void rockscreen (View view) {
-        Intent intent = new Intent(this, RockChosen.class);
 
+    @Override
+    public void onClick(View view) {
+        Intent intent = new Intent (this, ResultPage.class);
+        intent.putExtra(RockPaperScissorsUtil.INPUT_TYPE,view.getId());
         startActivity(intent);
-
-
-    }
-    public void paperscreen (View view) {
-        Intent intent = new Intent(this, PaperChosen.class);
-
-        startActivity(intent);
-
-
-    } public void scissorsscreen (View view) {
-        Intent intent = new Intent(this, ScissorsChosen.class);
-
-        startActivity(intent);
-
 
     }
 }

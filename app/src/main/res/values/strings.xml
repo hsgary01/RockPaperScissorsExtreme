@@ -9,5 +9,6 @@
     <string name="title_activity_rock_chosen">RockChosen</string>
     <string name="title_activity_paper_chosen">PaperChosen</string>
     <string name="title_activity_scissors_chosen">ScissorsChosen</string>
+    <string name="title_activity_result_page">ResultPage</string>
 
 </resources>

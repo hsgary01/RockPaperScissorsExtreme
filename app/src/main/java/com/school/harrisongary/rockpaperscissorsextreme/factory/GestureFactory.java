@@ -4,6 +4,7 @@ package com.school.harrisongary.rockpaperscissorsextreme.factory;
 import android.util.Log;
 
 
+import com.school.harrisongary.rockpaperscissorsextreme.RockPaperScissorType;
 import com.school.harrisongary.rockpaperscissorsextreme.model.Gesture;
 import com.school.harrisongary.rockpaperscissorsextreme.model.Paper;
 import com.school.harrisongary.rockpaperscissorsextreme.model.Rock;
@@ -21,7 +22,7 @@ public class GestureFactory {
     public static Gesture getInstance() {
         Random randomGenerator = new Random(new Date().getTime() + number++);
         int val = randomGenerator.nextInt(3);//up to four but not including
-        Log.d("mascot", "mascot number: " + val);
+        Log.d("gesture", "gesture number: " + val);
         switch (val) {
             case 1:
                 return new Rock();
