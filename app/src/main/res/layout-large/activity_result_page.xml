@@ -18,8 +18,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/You"
-        android:textSize="30sp"
-        android:textColor="#FFFFFF" />
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingTop="15dp"/>
 
     <TextView
 
@@ -27,32 +30,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Computer"
-        android:textSize="30sp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textColor="#FFFFFF" />
+        android:textSize="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF"
+        android:paddingTop="300dp"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
         android:id="@+id/imageView"
-        android:src="@drawable/ic_launcher"
-        android:layout_below="@+id/youPlays" />
+        android:src="@drawable/paperbill"
+        android:layout_below="@+id/youPlays"
+        android:layout_centerInParent="true"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
         android:id="@+id/imageView6"
-        android:src="@drawable/ic_launcher"
+        android:src="@drawable/paperbill"
         android:layout_below="@+id/compPlays"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_centerInParent="true"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:text="@string/Play_Again"
         android:id="@+id/button"
+        android:textSize="25sp"
         android:onClick= "titleScreen"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
@@ -65,7 +70,7 @@
 
         android:id="@+id/textResult"
         android:text ="@string/Result"
-        android:textSize="40sp"
+        android:textSize="75sp"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

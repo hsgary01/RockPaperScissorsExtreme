@@ -13,18 +13,19 @@
 
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
         android:id="@+id/imageButtonR"
         android:src="@drawable/rock"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="#fff6f6f6"
-        android:contentDescription="@string/SelectRock"/>
+        android:contentDescription="@string/SelectRock"
+        />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
         android:id="@+id/imageButtonP"
         android:src="@drawable/paper"
         android:layout_centerVertical="true"
@@ -34,8 +35,8 @@
         android:contentDescription="@string/SelectPaper" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
         android:id="@+id/imageButtonS"
         android:src="@drawable/scissors"
         android:layout_alignParentBottom="true"

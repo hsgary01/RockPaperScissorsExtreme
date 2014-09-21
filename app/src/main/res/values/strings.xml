@@ -20,5 +20,8 @@
     <string name="Rock">Rock</string>
     <string name="Paper">Paper</string>
     <string name="Scissors">Scissors</string>
+    <string name="You">You</string>
+    <string name="Computer">Computer</string>
+    <string name="Result">Result</string>
 
 </resources>
