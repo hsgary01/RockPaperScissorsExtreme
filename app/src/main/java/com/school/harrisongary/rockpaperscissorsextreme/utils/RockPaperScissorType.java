@@ -1,4 +1,4 @@
-package com.school.harrisongary.rockpaperscissorsextreme;
+package com.school.harrisongary.rockpaperscissorsextreme.utils;
 
 /**
  * Created by R2D2 on 9/20/2014.

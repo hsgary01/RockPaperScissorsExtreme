@@ -1,7 +1,5 @@
 package com.school.harrisongary.rockpaperscissorsextreme.utils;
 
-import com.school.harrisongary.rockpaperscissorsextreme.RockPaperScissorType;
-
 /**
  * Created by R2D2 on 9/20/2014.
  */

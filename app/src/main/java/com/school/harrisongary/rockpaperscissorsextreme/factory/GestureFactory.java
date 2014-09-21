@@ -4,7 +4,6 @@ package com.school.harrisongary.rockpaperscissorsextreme.factory;
 import android.util.Log;
 
 
-import com.school.harrisongary.rockpaperscissorsextreme.RockPaperScissorType;
 import com.school.harrisongary.rockpaperscissorsextreme.model.Gesture;
 import com.school.harrisongary.rockpaperscissorsextreme.model.Paper;
 import com.school.harrisongary.rockpaperscissorsextreme.model.Rock;
