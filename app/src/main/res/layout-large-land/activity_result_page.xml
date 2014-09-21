@@ -18,11 +18,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/You"
-        android:textSize="50sp"
+        android:textSize="70sp"
         android:textColor="#FFFFFF"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:paddingTop="15dp"/>
+        android:paddingLeft="100dp"
+        android:paddingRight="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"/>
 
     <TextView
 
@@ -30,27 +31,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Computer"
-        android:textSize="50sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:textColor="#FFFFFF"
-        android:paddingTop="300dp"/>
+        android:textSize="70sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF" />
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="200dp"
         android:id="@+id/imageView"
         android:src="@drawable/paperbill"
-        android:layout_below="@+id/youPlays"
-        android:layout_centerInParent="true"/>
+        android:layout_below="@+id/youPlays" />
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="200dp"
         android:id="@+id/imageView6"
-        android:src="@drawable/paperbill"
+        android:src="@drawable/thing_dialogue_1"
         android:layout_below="@+id/compPlays"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
 
     <Button
         android:layout_width="300dp"

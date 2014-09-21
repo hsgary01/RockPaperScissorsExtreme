@@ -13,28 +13,28 @@
 
 
     <ImageButton
-        android:layout_width="200dp"
+        android:layout_width="180dp"
         android:layout_height="90dp"
         android:id="@+id/imageButtonR"
         android:src="@drawable/rock"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+
         android:background="#fff6f6f6"
         android:contentDescription="@string/SelectRock"/>
 
     <ImageButton
-        android:layout_width="200dp"
+        android:layout_width="180dp"
         android:layout_height="90dp"
         android:id="@+id/imageButtonP"
         android:src="@drawable/paper"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/imageButtonR"
-        android:layout_alignStart="@+id/imageButtonR"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:background="#fff6f6f6"
         android:contentDescription="@string/SelectPaper" />
 
     <ImageButton
-        android:layout_width="200dp"
+        android:layout_width="180dp"
         android:layout_height="90dp"
         android:id="@+id/imageButtonS"
         android:src="@drawable/scissors"
@@ -53,8 +53,11 @@
         android:textSize="30sp"
         android:textColorHighlight="#ff000000"
         android:textColor="#ff00ad2e"
+
         android:layout_alignTop="@+id/imageButtonS"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/imageButtonS"
+        android:layout_alignEnd="@+id/imageButtonS"
+        android:layout_marginRight="22dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -65,8 +68,11 @@
         android:textSize="30sp"
         android:textColorHighlight="#ff000000"
         android:textColor="#ff0004ad"
+
         android:layout_alignTop="@+id/imageButtonP"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="39dp" />" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -78,7 +84,9 @@
         android:textColorHighlight="#ff000000"
         android:textColor="#ffad000c"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/imageButtonR"
+        android:layout_alignEnd="@+id/imageButtonR"
+        android:layout_marginRight="53dp" />
 
 
 </RelativeLayout>

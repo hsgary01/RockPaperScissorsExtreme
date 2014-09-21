@@ -38,14 +38,14 @@
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:id="@+id/imageView"
-        android:src="@drawable/paperbill"
+        android:src="@drawable/thing_dialogue_1"
         android:layout_below="@+id/youPlays" />
 
     <ImageView
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:id="@+id/imageView6"
-        android:src="@drawable/wolverine_4"
+        android:src="@drawable/thing_dialogue_1"
         android:layout_below="@+id/compPlays"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"/>

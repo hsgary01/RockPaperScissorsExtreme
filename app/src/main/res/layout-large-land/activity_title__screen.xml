@@ -38,7 +38,7 @@
         android:textColor="#ffff000f"
         android:textStyle="bold"
         android:layout_centerInParent="true"
-        android:paddingBottom="180dp"
+        android:paddingBottom="80dp"
 
 
         android:layout_centerHorizontal="true" />
@@ -57,7 +57,7 @@
         android:textColor="#fffafcf9"
         android:layout_above="@+id/button"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="110dp" />
+        android:layout_marginBottom="10dp" />
 
     <Button
         android:layout_width="325dp"
